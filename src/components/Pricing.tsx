@@ -58,7 +58,7 @@ export default function Pricing() {
                 
                 {course.id === 2 && (
                   <p
-                    className="text-sm font-bold text-white bg-green-600 py-2 shadow-md uppercase 
+                    className="text-sm font-bold text-black bg-[#9EDF9C] py-2 shadow-md uppercase 
         absolute top-0 left-1/2 transform -translate-x-1/2 w-[100%] text-center rounded-t-lg"
                   >
                     Most of our students enroll in this course
@@ -100,12 +100,12 @@ export default function Pricing() {
 
                 <div className="mt-6 flex flex-col gap-3">
                   <Link href="/apply">
-                    <div className="w-full bg-customGreen hover:bg-green-600 text-white text-center px-5 py-3 rounded-lg font-semibold transition">
+                    <div className="w-full bg-customGreen hover:bg-customGreen/90 text-white text-center px-5 py-3 rounded-lg font-semibold transition">
                       Complete Application
                     </div>
                   </Link>
                   <Link href="/contact">
-                    <div className="w-full bg-green-600 hover:bg-customGreen text-white text-center px-5 py-3 rounded-lg font-semibold transition">
+                    <div className="w-full text-black bg-[#9EDF9C] hover:bg-customGreen text-center px-5 py-3 rounded-lg font-semibold transition">
                       Pay Fees
                     </div>
                   </Link>
